@@ -1,0 +1,16 @@
+<Window
+    x:Class="FACWU3.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:local="clr-namespace:FACWU3"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    
+    Title="Calcolo Tempo Trascorso">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="16">
+        <DatePicker x:Name="datePicker" DateChanged="DatePicker_DateChanged"/>
+        <TextBlock x:Name="resultTextBlock" FontSize="18" Text="Seleziona una data"/>
+    </StackPanel>
+</Window>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FACWU3 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FACWU3 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
